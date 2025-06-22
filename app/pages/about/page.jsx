@@ -96,7 +96,7 @@ const About = () => (
       <h3>Our President</h3>
       <div className={styles.presidentCard}>
         <Image
-          src="/president.jpg"
+          src="./president.jpg"
           alt="President"
           width={150}
           height={150}
