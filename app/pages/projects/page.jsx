@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import Ongoing from "./ongoing/page";
 import Completed from "./completed/page";
