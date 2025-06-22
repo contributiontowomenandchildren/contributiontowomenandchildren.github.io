@@ -2,9 +2,9 @@
 
 import styles from "./page.module.css";
 
-const Home = ({ id }) => {
+const Home = () => {
   return (
-    <section id={id} className={styles.heroSection}>
+    <section id="home" className={styles.heroSection}>
       <div className={styles.overlay}>
         <div className={styles.content}>
           <h1 className={styles.ngoName}>Contribution to Women and Children</h1>

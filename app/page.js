@@ -10,10 +10,10 @@ const HomePage = () => {
   return (
     <>
       <ScrollProgress />
-      <Home id="home" />
-      <Projects id="projects" />
-      <About id="about" />
-      <Contact id="contact" />
+      <Home />
+      <Projects />
+      <About />
+      <Contact />
     </>
   );
 };

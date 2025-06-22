@@ -6,11 +6,11 @@ import Completed from "./completed/page";
 
 import styles from "./page.module.css";
 
-const Projects = ({ id }) => {
+const Projects = () => {
   const [activeTab, setActiveTab] = useState("ongoing");
 
   return (
-    <section id={id} className={styles.projects}>
+    <section id="projects" className={styles.projects}>
       <h2 className={styles.title}>Projects</h2>
 
       <div className={styles.tabs}>
