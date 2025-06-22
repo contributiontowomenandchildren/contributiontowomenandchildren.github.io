@@ -10,7 +10,7 @@ const projectsCompleted = [
     description:
       "The 'We Are Armenian-Christian' cultural program was implemented with a grant from the Ministry of Sports and Youth Affairs of the Republic of Armenia, within the framework of which 20 children from socially disadvantaged families in the city of Dilijan became acquainted with their national and spiritual treasures by making a pilgrimage to the Haghartsin, Goshavank, Zvartnots, and Holy Etchmiadzin churches and being baptized, receiving golden crosses.",
     partners: [],
-    images: ["./projects/1.jpg"],
+    images: ["./projects/1-1.jpg", "./projects/1-2.jpg", "./projects/1-3.jpg"],
     videos: [],
   },
   {
