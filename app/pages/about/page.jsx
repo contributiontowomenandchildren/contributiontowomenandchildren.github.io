@@ -38,10 +38,6 @@ const About = () => (
         🤝 Collaborating with public institutions, NGOs, international bodies,
         and foundations.
       </li>
-      <li>
-        🏠 Located in Dilijan: Kalinin St. 87, apt. 20, Tavush Province,
-        Armenia.
-      </li>
     </ul>
 
     <h3>Our Name</h3>
