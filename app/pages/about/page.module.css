@@ -1,0 +1,51 @@
+.section {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: var(--bg-white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.section h2 {
+  font-size: 2rem;
+  color: var(--green-dark);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section h3 {
+  font-size: 1.4rem;
+  color: var(--green);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.section p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.list li {
+  margin-bottom: 0.75rem;
+  position: relative;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}
+
+.list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--green-dark);
+  font-size: 1.2rem;
+  line-height: 1;
+}

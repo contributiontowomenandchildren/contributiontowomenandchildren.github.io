@@ -1,0 +1,35 @@
+:root {
+  --green: #228b22;
+  --green-dark: #145214;
+  --bg-light: #f9fdf9;
+  --bg-white: #ffffff;
+  --text-dark: #1f3f1f;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --radius: 12px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.main-container {
+  margin: 2rem auto;
+}
+
+a {
+  color: var(--green);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}

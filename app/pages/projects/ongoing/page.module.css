@@ -1,0 +1,18 @@
+.ongoing {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  margin-top: 1rem;
+}

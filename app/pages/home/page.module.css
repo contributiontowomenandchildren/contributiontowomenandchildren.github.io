@@ -1,0 +1,72 @@
+.heroSection {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.overlay {
+  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  max-width: 800px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.ngoName {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--green-dark);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+  font-family: "Geist", sans-serif;
+}
+
+.slogan {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--green);
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  font-family: "Geist Mono", monospace;
+  letter-spacing: 0.02em;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+}
+
+.ctaButton {
+  background-color: var(--green);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 6px 12px rgba(34, 139, 34, 0.4);
+}
+
+.ctaButton:hover {
+  background-color: var(--green-dark);
+  box-shadow: 0 8px 16px rgba(20, 82, 20, 0.6);
+}

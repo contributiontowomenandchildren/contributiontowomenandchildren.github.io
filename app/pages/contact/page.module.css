@@ -1,0 +1,45 @@
+.section {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background-color: var(--bg-white);
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.image {
+  border-radius: 50%;
+  border: 3px solid var(--green);
+  box-shadow: 0 0 10px rgba(34, 139, 34, 0.3);
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover;
+}
+
+.paragraph {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.link {
+  color: var(--green);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  text-decoration: underline;
+}

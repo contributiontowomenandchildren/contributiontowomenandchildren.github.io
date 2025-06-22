@@ -1,0 +1,60 @@
+.statusBadge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  color: var(--bg-white);
+  user-select: none;
+}
+
+.ongoing {
+  background-color: var(--green);
+}
+
+.completed {
+  background-color: #444;
+}
+
+.projectCard {
+  position: relative;
+  background-color: var(--bg-white);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 350px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+}
+
+.title {
+  color: var(--green);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image {
+  border-radius: 8px;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  flex: 1 1 140px;
+}
+
+.description {
+  font-size: 1rem;
+  color: var(--text-dark);
+}
