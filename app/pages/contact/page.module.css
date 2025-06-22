@@ -1,6 +1,6 @@
 .section {
-  max-width: 900px;
-  margin: 4rem auto;
+  max-width: 1200px;
+  margin: 2rem auto;
   padding: 3rem 2rem;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -37,6 +37,9 @@
   color: var(--green);
   font-weight: 600;
   text-decoration: none;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 .link:hover,

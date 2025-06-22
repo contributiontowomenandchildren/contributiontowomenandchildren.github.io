@@ -1,7 +1,24 @@
 .footer {
-  padding: 2rem;
+  padding: 10px;
   background-color: #f0f0f0;
   text-align: center;
   font-size: 0.9rem;
   color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socialLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.socialLink:hover,
+.socialLink:focus {
+  transform: scale(1.2);
+  outline: none;
 }

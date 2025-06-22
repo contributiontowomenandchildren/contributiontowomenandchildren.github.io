@@ -9,7 +9,7 @@ const Contact = () => (
     <div className={styles.logoContainer}>
       <Image
         className={styles.image}
-        src="/logo.jpg"
+        src="/logo.png"
         width={200}
         height={200}
         alt="Logo"

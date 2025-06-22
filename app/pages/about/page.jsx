@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import styles from "./page.module.css";
 
 const About = () => (
@@ -89,6 +91,33 @@ const About = () => (
       We believe that the secrets of success lie within us, and that recognizing
       our inner strength is the key to overcoming our challenges.
     </p>
+
+    <div className={styles.presidentSection}>
+      <h3>Our President</h3>
+      <div className={styles.presidentCard}>
+        <Image
+          src="/president.jpg"
+          alt="President"
+          width={150}
+          height={150}
+          className={styles.presidentImage}
+        />
+        <div className={styles.presidentInfo}>
+          <h4>Manush Hovnanyan</h4>
+          <p>
+            Founder and President of Contribution to Women and Children NGO.
+          </p>
+          <a
+            href="https://www.facebook.com/manush.hovnanyan/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.fbLink}
+          >
+            Facebook Profile
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 );
 

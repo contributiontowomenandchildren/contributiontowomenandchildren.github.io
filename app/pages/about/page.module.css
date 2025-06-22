@@ -1,6 +1,6 @@
 .section {
-  max-width: 900px;
-  margin: 4rem auto;
+  max-width: 1200px;
+  margin: 2rem auto;
   padding: 2rem;
   background-color: var(--bg-white);
   border-radius: var(--radius);
@@ -48,4 +48,59 @@
   color: var(--green-dark);
   font-size: 1.2rem;
   line-height: 1;
+}
+
+.presidentSection {
+  margin-top: 3rem;
+  background-color: #e6f4ea;
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.presidentCard {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.presidentImage {
+  border-radius: 50%;
+  border: 3px solid var(--green-dark);
+  object-fit: cover;
+}
+
+.presidentInfo {
+  max-width: 600px;
+}
+
+.presidentInfo h4 {
+  margin: 0;
+  color: var(--green-dark);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.presidentInfo p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-dark);
+}
+
+.fbLink {
+  font-weight: 600;
+  color: var(--green);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.fbLink:hover,
+.fbLink:focus {
+  border-color: var(--green-dark);
+  text-decoration: none;
 }

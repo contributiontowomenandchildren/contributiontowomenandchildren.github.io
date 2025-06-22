@@ -27,11 +27,11 @@ const projectsOngoing = [
       "The 'Education is Fashionable' movement continues, reaching new communities with its meetings. Soon, it will also reach Tavush region, of which I am a member of the committee.",
     partners: ["My Step Foundation"],
     images: [
-      "/projects/15-1.jpg",
-      "/projects/15-2.jpg",
       "/projects/15-3.jpg",
+      "/projects/15-2.jpg",
       "/projects/15-4.jpg",
       "/projects/15-5.jpg",
+      "/projects/15-1.jpg",
       "/projects/15-6.jpg",
     ],
     videos: [],
@@ -41,17 +41,16 @@ const projectsOngoing = [
 const Ongoing = () => {
   return (
     <div className={styles.ongoing}>
-      <div className={styles.grid}>
-        {projectsOngoing.map((project) => (
-          <Project
-            key={project.title}
-            title={project.title}
-            description={project.tidescriptiontle}
-            images={project.images}
-            status="ongoing"
-          />
-        ))}
-      </div>
+      {projectsOngoing.map((project) => (
+        <Project
+          key={project.title}
+          title={project.title}
+          description={project.tidescriptiontle}
+          images={project.images}
+          partners={project.partners}
+          status="ongoing"
+        />
+      ))}
     </div>
   );
 };

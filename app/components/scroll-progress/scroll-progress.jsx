@@ -8,18 +8,14 @@ const ScrollProgress = () => {
   const [scrollTop, setScrollTop] = useState(0);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const winScroll =
-        document.documentElement.scrollTop || document.body.scrollTop;
-      const height =
-        document.documentElement.scrollHeight -
-        document.documentElement.clientHeight;
+    const onScroll = () => {
+      const winScroll = window.scrollY || document.documentElement.scrollTop;
+      const height = document.documentElement.scrollHeight - window.innerHeight;
       const scrolled = (winScroll / height) * 100;
       setScrollTop(scrolled);
     };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
@@ -27,6 +23,7 @@ const ScrollProgress = () => {
       <div
         className={styles.progressBar}
         style={{ width: `${scrollTop}%` }}
+        aria-hidden="true"
       ></div>
     </div>
   );

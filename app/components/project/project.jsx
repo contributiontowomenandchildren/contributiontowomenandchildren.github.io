@@ -23,17 +23,17 @@ const Project = ({ title, description, images, partners, status }) => {
             className={styles.image}
             src={image}
             width={300}
-            height={200}
+            height={300}
             alt={title}
           />
         ))}
       </div>
       <p className={styles.description}>{description}</p>
-      {partners ? (
+      {partners?.length > 0 ? (
         <span>
           <h4>Partners:</h4>
-          {partners.map((partner, index) => (
-            <p key={index} className={styles.partner}>
+          {partners.map((partner) => (
+            <p key={partner} className={styles.partner}>
               {partner}
             </p>
           ))}
