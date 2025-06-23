@@ -45,7 +45,7 @@ const Ongoing = () => {
         <Project
           key={project.title}
           title={project.title}
-          description={project.tidescriptiontle}
+          description={project.description}
           images={project.images}
           partners={project.partners}
           status="ongoing"
